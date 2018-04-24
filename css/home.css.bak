@@ -1,0 +1,41 @@
+body{
+	font-size:12px;
+	background:#ddd;
+}
+.menu{
+	width:"100%";
+	height:83px;
+	background:#00a0b0;
+	margin-top:68px;
+}
+.menu>.first_chi{
+	margin-left:150px;
+}
+.menu li{
+	list-style:none;
+	float:left;
+	line-height:83px;
+	font-size:18px;
+	width:50px;
+	font-weight:700;
+	color:#fff;
+	margin-left:54px;
+}
+.menu li:hover{
+	cursor:pointer;
+	color:#74d7e1;
+}
+.act{
+	width:100%;
+	height:900px;
+	background:#fff;
+	margin:0 auto;
+}
+.hid{
+	display:none;
+}
+
+
+
+
+
