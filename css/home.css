@@ -3,7 +3,7 @@ body{
 	background:#ddd;
 }
 .menu{
-	width:"100%";
+	width:"90%";
 	height:83px;
 	background:#00a0b0;
 	margin-top:68px;
@@ -26,7 +26,7 @@ body{
 	color:#74d7e1;
 }
 .act{
-	width:100%;
+	width:90%;
 	height:900px;
 	background:#fff;
 	margin:0 auto;
