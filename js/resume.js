@@ -5,7 +5,7 @@
 		gender:"男",
 		political:"共青团员",
 		adr:"海南海口",
-		phone:"18*******51",
+		phone:"18889745151",
 		email:"2454342116@qq.com",
 		pro:"国家及江苏省计算机二级(c++)",
 		english:"CET-4",
@@ -21,7 +21,7 @@
 		sk1:"大学英语CET-4级证书，有一定浏览英语专业文件及书籍的能力；",
 		sk2:"通过全国江苏计算机二级C++考试；",
 		sk3:"熟练使用XAMPP软件测试Ajax、PHP、数据库；",
-		sk4:"熟练使用editplus编写代码，会使用websotrm编写网页代码；",
+		sk4:"熟练使用editplus,websotrm编写网页代码；",
 		sk5:"熟练使用CAD等制图软件。",
 	});
 
