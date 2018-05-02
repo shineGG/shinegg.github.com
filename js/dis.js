@@ -45,7 +45,7 @@ $(".combtn").click(
 		
 			console.log("能发送");
 			var htm = "<div class='comcten'><!--讨论区-发布后内容区--><div class='cclet'><div>6</div></div><div class='ccrig'><div>游客第次"+nus()+"发布的内容</div><div>"+data+"</div></div><div class='fav'><!--讨论区-评论、转发点赞区--><ul><li><span>收藏</span></li><li><span>转发</span></li><li><span>评论</span></li><li class='six'><span onclick='pic(this)'>点赞</span></li></ul></div><!--讨论区-评论、转发点赞区--></div><!--讨论区-发布后内容区-->";
-			$("#dis").append($(htm));//当游客发表的信息符合要求后创建发布后信息节点并将其刷上页面
+			$("#comment").after($(htm));//当游客发表的信息符合要求后创建发布后信息节点并将其刷上页面
 		}
 	}
 );
