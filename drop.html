@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title></title>
+  <meta charset='utf-8'>
+  <style>
+	*{
+		box-sizing:border-box;
+		background:#ddd;
+	}
+	#drop{
+		width:700px;
+		height:600px;
+		border:1px solid #333;
+		background:#fff;
+		position:absolute;
+		left:300px;
+		top:50px;
+
+
+		
+		
+	}
+	.close{
+		float:right;
+		width:20px;
+		height:20px;
+		overflow:hidden;
+		line-height:20px;
+		text-align:center;
+		margin-top:5px;
+		margin-right:5px;
+	}
+	.close:hover{
+		cursor:pointer;
+	}
+	#inf{
+	text-align:center;
+	height:20px;
+		position:absolute;
+		margin:auto;
+			left:0;
+			right:0;
+			top:0;
+			bottom:0;
+	}
+  </style>
+ </head>
+
+ <body>
+	<div id="drop">
+		<span class="close">X</span>
+		<p id="inf">你可以像客户端窗口一样拖动这个矩形窗口,并且可以点击右上角关闭它</p>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/drop.js"></script>
+ </body>
+</html>
