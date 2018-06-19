@@ -5,7 +5,7 @@
 		gender:"男",
 		political:"共青团员",
 		adr:"海南海口",
-		phone:"18889745151",
+		phone:"188*****151",
 		email:"2454342116@qq.com",
 		pro:"国家及江苏省计算机二级(c++)",
 		english:"CET-4",
