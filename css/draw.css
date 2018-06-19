@@ -1,0 +1,117 @@
+*{/*ȫ����ʽ*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#app{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #dddddd;
+    margin-top: -250px;
+    margin-left: -500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 3px 3px 5px #666;
+    border-radius: 5px;
+
+}
+.dp{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+}
+.dc{/*canvas��ʽ*/
+    margin: 3px 10px;
+    margin-right: 0;
+    width: 600px;
+    height: 400px;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    cursor:crosshair;
+}
+.dopt{/*������ʽѡ�����ʽ*/
+    margin-left:10px;
+    margin-right: 0;
+    width: 600px;
+    height: 87px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+.dimg{
+    position: absolute;
+    left: 618px;
+    top: 0;
+    float: right;
+    width: 377px;
+    height: 490px;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    overflow: scroll;
+}
+.pencolor{/*������ɫѡ��*/
+    width: 150px;
+    height: 80px;
+    border: 1px solid #dddddd;
+    float: left;
+}
+.pencolor>h5{
+    text-align: center;
+}
+.pencolor>ul{
+    overflow: hidden;
+    padding-left: 10px;
+}
+.pencolor>ul li{
+    float:left;
+    list-style: none;
+    width: 30px;
+    height: 25px;
+    margin-left: 9px;
+    margin-top: 3px;
+}
+.active{/*������ɫѡ�񼤻�*/
+    border:2px solid firebrick;
+}
+.pensize{
+    width: 150px;
+    height: 80px;
+    border: 1px solid #dddddd;
+    float: left;
+    margin-left: 5px;
+}
+.pensize>h5{
+    text-align: center;
+}
+.pensize>ul{
+    overflow: hidden;
+    padding-left: 10px;
+}
+.pensize>ul li{
+    float:left;
+    list-style: none;
+    width: 30px;
+    height: 25px;
+    margin-left: 9px;
+    margin-top: 3px;
+}
+.img-item{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: 13px;
+}
+.img-item>img{
+ 
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+}
+.img_close{
+    position: absolute;
+    top:3px;
+    right: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
