@@ -15,7 +15,7 @@ $("#men li").click(function(){
 var val=$(".ipt").val();
 $(".combtn").click(function(){
 	console.log(val);
-    $.post("https://wfiqry-8080-gkrgsg.box.myide.io",
+    $.post("https://wfiqry-8080-gkrgsg.box.myide.io/index.php",
     {
        id:val
     },
