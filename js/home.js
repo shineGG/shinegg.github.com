@@ -12,11 +12,12 @@ $("#men li").click(function(){
 }
 
 );
-
-$("button").click(function(){
+var val=$(".ipt").val();
+$(".combtn").click(function(){
+	console.log(val);
     $.post("https://wfiqry-8080-gkrgsg.box.myide.io",
     {
-       id:897546980
+       id:val
     },
         function(data,status){
         console.log(status);
