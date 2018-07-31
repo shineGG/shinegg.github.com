@@ -3,7 +3,7 @@ $("#men li").click(function(){
 	console.log(id);
 	$("#content").children().removeClass();
 	$(id).siblings().addClass("hid");
-	$(this).siblings().attr("style","#fff");//ÔÚµ±Ç°ÔªËØÉÏÎŞ·¨´©ÉÏÉèÖÃÑÕÉ«µÄclass£¬ÓÅÏÈ¼¶ÎÊÌâ£¿
+	$(this).siblings().attr("style","#fff");//åœ¨å½“å‰å…ƒç´ ä¸Šæ— æ³•ç©¿ä¸Šè®¾ç½®é¢œè‰²çš„classï¼Œä¼˜å…ˆçº§é—®é¢˜ï¼Ÿ
 
 	$(this).attr("style","background-color:#fff;color:#74d7e1;");
 
@@ -13,7 +13,17 @@ $("#men li").click(function(){
 
 );
 
+$("button").click(function(){
+    $.post("https://wfiqry-8080-gkrgsg.box.myide.io",
+    {
+       id:897546980
+    },
+        function(data,status){
+        console.log(status);
+        alert(data);
 
+    });
+});
 
 
 
