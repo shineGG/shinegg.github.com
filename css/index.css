@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+.container {
+    background: #f6f6f5;
+    height: 100vh;
+}
+
+.resum-header {
+    width: 100%;
+    height: 130px;
+    background: linear-gradient(to right,#87CEFA,#1E90FF);
+}
+
+.resum-body {
+    padding: 0 0.5rem;
+    margin-top: -70px;
+}
+/*公用*/
+    .block {
+        background: #fff;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .block-title {
+        line-height: 3rem;
+        font-size: 0.9rem;
+        color: #444;
+        border-bottom: 1px solid #ddd;
+        padding: 0.2rem 1rem;
+        margin: 0 0.5rem;
+    }
+/*公用*/
+/*基本信息*/
+.base-info {
+   
+}
+
+.base-info-title span {
+    font-size: 0.9rem;
+}
+
+.base-info-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem  1.5rem;
+}
+
+.base-info-body img {
+    width: 70px;
+    height: 70px;
+}
+
+.base-info-body-introduce {
+    margin-left: 1rem;
+    font-size: 0.7rem;
+}
+
+.base-info-body-introduce p {
+    margin-bottom: 0.5rem;
+    color: #868686;
+}
+
+.resum-name {
+    font-size: 0.9rem;
+    color: #444 !important;
+}
+
+/*求职意向*/
+
+.resum-intention {
+    
+}
+
+.resum-intention-body {
+    padding: 0rem 0rem 1rem 3rem;
+}
+
+.resum-intention-body p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #444;
+}
+/*求职意向*/
