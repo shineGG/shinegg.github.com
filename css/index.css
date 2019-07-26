@@ -4,7 +4,7 @@
 
 .container {
     background: #f6f6f5;
-    height: 100vh;
+    padding-bottom: 2rem;
 }
 
 .resum-header {
@@ -85,3 +85,45 @@
     color: #444;
 }
 /*求职意向*/
+
+/*项目经历*/
+    .experience-body {
+        padding: 1rem 0rem 1rem 2rem;
+        display: flex;
+    }
+
+    .line {
+        width: 0px;
+        height: 360px;
+        border-left: 1px solid #1E90FF;
+        margin: 2rem 1rem 0rem 0rem;
+    }
+
+    .experience-list-item {
+        margin-bottom: -0.7rem;
+    }
+
+    .experience-list-item::before {
+        content: " ";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #1E90FF;
+        position: relative;
+        left: -21px;
+        top: 19px;
+    }
+
+    .experience-list-item p:first-child {
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .experience-list-item p:last-child {
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+        color: #444;
+    }
+/*项目经历*/
