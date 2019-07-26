@@ -42,10 +42,9 @@ body{
 	box-sizing:border-box;
 	margin-top:0px;
 	margin-bottom:15px;
-	margin-left:auto;
-	margin-right:auto;
 	padding:0px 15px;
-
+	display: flex;
+	justify-content: center;
 }
 .container:before{
 	content:' ';
