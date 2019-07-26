@@ -99,6 +99,11 @@
         margin: 2rem 1rem 0rem 0rem;
     }
 
+    .experience-list {
+        border-left: 1px solid #1E90FF;
+        padding-left: 1.2rem;
+    }
+
     .experience-list-item {
         margin-bottom: -0.7rem;
     }
@@ -111,7 +116,7 @@
         border-radius: 50%;
         background: #1E90FF;
         position: relative;
-        left: -21px;
+        left: -1.5rem;
         top: 19px;
     }
 
