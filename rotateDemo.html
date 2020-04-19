@@ -5,56 +5,20 @@
     <link rel="stylesheet" href="css/draw.css"/>
 </head>
 <body>
-    <div>  
-    </div>
 <div id="app">
-  
-    <div class="dp">
-        <div @mousemove="momo($event)" @mousedown="isdown($event)" @mouseup="isup($event)" class="dc">
-            <canvas id="canvas" width="600" height="400"></canvas>
-        </div>
-        <div class="dopt">
-            <div class="pencolor">
-                <h5>画笔颜色选择</h5>
-                <ul>
-                    <li style="background:red;" @click="ckc($event)"></li>
-                    <li  class="active" style="background:#666666;" @click="ckc($event)"></li>
-                    <li style="background:yellow;" @click="ckc($event)"></li>
-                    <li style="background:blue;" @click="ckc($event)"></li>
-                    <li style="background:black;" @click="ckc($event)"></li>
-                    <li style="background:green;" @click="ckc($event)"></li>
-                </ul>
-            </div>
-            <!-- <div class="pensize">
-                <h5>画笔粗细选择</h5>
-                <ul>
-                    <li  @click="cksize($event)"></li>
-                    <li  class="active" style="background:#666666;" @click="cksize($event)"></li>
-                    <li  @click="cksize($event)"></li>
-                    <li  @click="cksize($event)"></li>
-                    <li  @click="cksize($event)"></li>
-                    <li  @click="cksize($event)"></li>
-                </ul>
-            </div> -->
-            <div>
-                <button @click="save($event)">生成图片</button>
-            </div>
-        </div>
-        <div class="dimg">
-            <div id="img-box" v-show="imgUrl.length">
-                <div class="img-item" v-for="src in imgUrl">
-                    <img :src="src">
-                    <span class="img_close" @click="removeImg($event)">X</span>
-                </div>
-            </div>
+ <div class="container">
+        <div class="wutai">
+            <ul :class="{'rotate-class': isRoate}" :style="{'transform': 'rotateY('+ulRotateDeg+'deg)',
+                'transition': 'all '+rotateSec+'s linear'}">
+                <li v-for="(item, index) in testList" :key="index" @click="rotateToCurrent(index, (getDeg*index+increatDeg))"
+                :style="{'transform': 'rotateY('+(getDeg*index+increatDeg)+'deg)' + 'translateZ('+spaceToO+'px)'
+                ,'height': 30*index+10+'px','bottom': '150px'}">
+                <div  class="text-container">{{index}}</div></li>
+            </ul>
         </div>
     </div>
-
 </div>
-<script src="js/jquery.min.js"></script>
-
 <script src="js/vue.js"></script>
-<script src="js/draw.js"></script>
-<!-- <script src="js/canvasimg.js"></script> -->
+<script src="js/rotate.js"></script>
 </body>
 </html>
